@@ -1,0 +1,305 @@
+                                     Final Project Proposal
+
+Introduction: This manual will include a step by step tutorial of how to register for classes at
+Howard University. It will explain how to navigate BisonWeb and all of its features.
+Additionally, how to use DegreeWorks and coursicle to build a course scheme and decide which
+classes are needed in your schedule. It will also feature a section informing students of potential
+roadblocks they might face while registering for classes, and how to avoid them.
+
+Justification: This manual’s target audience is Howard University undergraduate students,
+specifically freshmen. Registering for classes at Howard is a complex process that requires a lot
+of planning and communication with faculty. The goal is to make registration less stressful and to
+lower user congestion that occurs on BisonWeb.
+
+Project Planning:
+Project Steps                                                   Roles
+
+1. Building Advisor Connections & Accessing Alternate Pins      Kariana Smith
+
+2. Building Your Scheme w/ BisonWeb                             Zerisha Watson/ Ugenia Taylor
+
+3. Building Your Scheme w/ DegreeWorks & Coursicle              Zaynab Ibrahim / Jamison Jenkins
+
+4. Registration Holds                                           Kristin Chance / Zerisha Watson
+
+5.Restriction Code Descriptions                                 Kaia Rascoe/ Azandria Hudson
+
+6.Additional Resources                                          Mia Rivers/ Adrianna Starkey
+
+
+
+Deadlines:
+Have all information needed for your topic: November 14, 2022
+Completed Rough Draft: November 18, 2022
+Completed Final Draft: December 1, 2022
+
+Presentation: Our group is planning to gather all of the information into a manual. During our
+presentation time, we will explain each part of the manual and why we choose to include this
+information. Our group decided that a manual was the most effective way to share this
+information because it will be easy to understand and navigate as well as can be handed out to
+HU students during registration week.
+Building Advisor Connections & Accessing Alternate Pins
+
+        Having a connection and gaining wisdom from your counselor is very important and
+beneficial towards one's registration process. A counselor provides support for all students across
+campus. Their role is to accommodate the students' needs, so that they may have a smooth
+transition into their upcoming semester. They also answer important questions one may have in
+regards to courses, achieving a minor, providing recommendations, stating what classes to take
+each semester and so much more. Without proper assistance from trained individuals, navigating
+a college curriculum can be very stressful and unmanageable.
+        An example in which one needs a counselor’s help is when registering for classes. A
+student would need to look at their course scheme to pick their classes, but before they chose
+which class to take they must contact their counselor in order to receive their alternative pins.
+The alternate pin dictates a specific number to put into any college website course provider (or
+BisonWeb for Howard University students) which then allows a student to apply for their classes.
+This is only done after the counselor has approved the student of taking the necessary courses
+required for their major. If one doesn’t seek their counselor for assistance, they may have a very
+hard time with the registration process. Build a connection with them and seek their professional
+help!
+
+       We have personally gained so much knowledge, assistance and kindness from our current
+counselors. Although sometimes it may seem a little overwhelming or intimidating to call and
+ask a question or discuss your course scheme with them, remember they are there to help with
+any educational questions you may have. Many times the discussions are very straightforward
+and quick. We would recommend keeping your counselor up to date with your courses and ask
+any questions at least once a month to ensure the best connection with your counselor!
+Building Your Course Scheme With BisonWeb
+Utilizing BisonWeb
+    1. DegreeWorks does not work for everyone and if you do not need all the information
+        Dehree Works has to offer, you can always go to the “Registration” tab on BisonWeb and
+        click “Look-up Classes to Add”. All you need is the subject of the class that you are
+        looking for.
+    2. Choose a semester and a list of all the subjects taught at Howard should show up.
+    3. Pick a subject and all of its courses will appear with different time sections and
+        professors.
+    4. Once you choose a section, click the “Register” button at the bottom of the page and
+        BisonWeb will add it to your schedule.
+    5. When adding CRNs to your schedule in the Add/Drop section, use the boxes at the
+        bottom of the page. When you click on one you will be able to type in the CRN and you
+        can fill up the whole row of boxes with different CRNs to apply to all your classes at
+        once.
+            a. Warning: BisonWeb runs slow on registration days, especially in the
+                 morning. If the website crashes, simply stay on the website and wait for it to
+                 start back up. If you are kicked out, log back on and go straight to the
+                 Add/Drop page to continue registering. Do not panic and click refresh or the
+                 back button, it will make the page run slower. Do not delete your alternative
+                 pin. Even if you register for all your credits in one day you might need to
+                 return to change a section or drop a course completely. Keep your pin until
+                 you get the next one.
+            b. Be mindful that you would only be able to register for classes from
+                 Monday-Sunday 9am-Midnight. During registration day the website might be a
+                 little slow due to everyone being on at the same time so try to log into BisonWeb
+                 around 8am.
+
+   You do not have wait for registration to do this. Try finding your course scheme through an
+advisor or administrator from your major department. Afterwards, look up all your courses and
+create a schedule for every upcoming semester. Save the CRNs somewhere you can easily access
+     them and remember to follow up with your advisor to ensure you are on the right track.
+Building Your Course Scheme With DegreeWorks & Coursicle
+Utilizing DegreeWorks
+    1. Log into BisonWeb (https://ssb-prod.ec.howard.edu/PROD/twbkwbis.P_WWWLogin)
+            c. Username: Student ID (e.g: @12345678)
+            d. Password is your birth date or the 6 digit pin you changed it to
+    2. Under the “Student Services” tab on the homepage click on “Students Records”
+    3. You will find the tab button labeled “DegreeWorks”. Clicking on it should take you to a
+        page that lays out the course scheme for your major and courses for any minors that you
+        are registered for.
+            a. Warning: DegreeWorks is not updated on the changes made to course
+                offerings or curricular pathways. Also, it does not keep an accurate record of
+                the ones you have taken so create a separate document of your completed
+                courses with the grade you earned.
+            b. DegreeWorks holds all the course CRNs under the subjects you need to graduate.
+                It will tell you the amount of seats open and the scheduled class times when you
+                click on the link for a class.
+    4. If the “Add/Drop Classes” tab is open on BisonWeb, you can simply copy and paste the
+        CRN into your schedule. If it is not time for registration you can always save it for later.
+            a. If it works properly, DegreeWorks will mark the classes you have already taken,
+                are registered for, your grades, and the amount of credits you have. It will even
+                split your course scheme into classes you are supposed to take as an
+                underclassman and upperclassman and how much credits you should have during
+                those years.
+            b. If you just want a run down of your grades for each semester, click on the “Class
+                History” button.
+            c. If you want to know what classes you will have to take if you declare a minor,
+                click the “What If” tab and choose the subject you wish to minor in.
+            d. Warning: It is recommended you do not use DegreeWorks on the day that
+                you register because going back and forth between multiple tabs is time
+                consuming. Instead, look at classes beforehand and copy the CRN.
+
+Utilizing Coursicle
+        Coursicle is a website designed to help students create mock schedules before and during
+class registration. All students need to do is go to coursicle.com and type in Howard. Once you
+select Howard you will be brought to a page that is titled “Schedule” with the term you are going
+to be registering for and a search bar to the left side. In the search bar you can look up classes to
+add to your schedule or you can click “Browse” and search through a more extensive course
+catalog that will allow you to see all of the sections Howard is offering for that term. Coursicle
+does not make the number of seats left for each class present so it is important to keep track
+through DegreeWorks. However, you can turn on notifications for one class to see if the section
+is still open or buy Coursicle premium and get to turn on notifications for all the classes on your
+mock schedule to keep track of whether or not they are still available. Coursicle allows students
+to see the section number, CRN, location, professor, and sometimes professor rating for each
+class. It’s important to use Coursicle in conjunction with DegreeWorks so you can see the layout
+of your schedule and if any classes you want to register for overlap. Coursicle also allows
+students to make as many mock schedules as they’d like so you can create a backup schedule if
+you can’t register for the classes you initially wanted.
+Registration Holds
+
+To ensure a smooth registration process, students must be sure they don't have any holds on their
+accounts. Students are unable to register until all account holds have been released. Be sure to
+check your account prior to registration to see if you have any holds.
+
+Steps to view holds: Login to BisonWeb - Click Student Services - Click Student Records - Click
+View Holds
+
+In order to get holds released, students must contact the office that placed the hold.
+    ● Admission (Undergraduate) Hold (admission@howard.edu)
+    ● Admission (Graduate) Hold (hugsadmission@howard.edu)
+    ● Bursar/SFS Hold (bursarhelp@howard.edu)
+    ● Dean’s Hold (the Dean of your school/college)
+    ● Financial Aid Hold (finaid@howard.edu)
+    ● International Student Hold (pugbong@howard.edu)
+    ● Medical Hold (studenthealthforms@howard.edu)1
+    ● Residence Life Hold (HUreslife@howard.edu)
+    ● Student Affairs Hold (studentaffairs@howard.edu)
+    ● Student Conduct Hold (studentconduct@howard.edu)
+    ● Delinquent Hold (finaid@howard.edu)
+
+1
+ For medical holds, students can check med+proctor (medproctor.com) to see what documents
+are required. Once you have met all of the requirements, holds should be released within 72
+business hours. For any questions, you can email studenthealthforms@howard.edu or call
+202-806-7540.
+Restriction Code Descriptions
+https://howard.edu/registrar/registration
+
+
+ Error                      Description
+
+ “C”                        The course is closed and at full capacity. You can add yourself to
+                            the waitlist if available or choose from an open section. Students on
+                            the waitlist will be notified by the Office of the Registrar via email
+                            if a seat is available.
+
+ You are not permitted to   If you try to register between 9 a.m. and 11:59 p.m., have
+ register at this time      registered and earned grades for the semester prior, and/or have
+                            been officially notified of readmission then contact the Office of
+                            Registrar for assistance with this error.
+
+                            This error may also pop up if you are not registering between the
+                            hours of 9 a.m. and 11:59 p.m. on your designated registration
+                            days.
+
+ Academic Standing          This means that you may have been academically suspended. You
+ Prohibits Registration     should review your academic history on BisonWeb and reach out
+                            and consult with your academic advisor for additional assistance.
+
+ Special Grading Options    When this error appears, it just means that the course you are trying
+ (Audit)                    to enroll in has more than one grading option. The default option is
+                            the standard letter grade mode (A-F), but if you want a different
+                            grading mode you have to request it using a Course Audit Form.
+
+ “SR”                       This error occurs if you are not eligible to register. Check your
+                            student status and any holds on account. Also refer to the General
+                            Registration Schedule and the University Calendar to ensure you
+                            are registering on the correct date. For additional help, you may
+                            need to meet with your Academic Advisor.
+
+ Time Conflicting           This error occurs when the course you are trying to register for
+                            meets at the same time or overlaps. To bypass this registration
+                            error, written approval from the instructor needs to be given to your
+                            Academic Advisor.
+
+ Prerequisite and Test      This error means that a prerequisite course or exam score is
+ Score Error                required to enroll in the class. To override this, your Academic
+                            Advisor has to determine if it is warranted. If approved, your
+                            advisor should process a system override.
+
+ Course Restrictions        Exceptions to these restrictions REQUIRE the right approval and
+                            have to be correctly processed by your Academic Advisor or the
+                            appropriate department:
+                          ● LEVEL: This indicates that the course you are trying to
+                            enroll in is restricted to a certain level (undergraduate,
+                            graduate, law school, or PhD candidates).
+                          ● DEGREE: This indicates that this course is restricted to a
+                            certain degree (B.A., BS, MA, MS, etc.)
+                          ● FIELD OF STUDY (MAJOR, MINOR,
+                            CONCENTRATION): This indicates that the course you
+                            are trying to enroll in is restricted to certain majors, minors,
+                            or concentrations. The only way to bypass this restriction is
+                            to get permission from the major department to register.
+                          ● CLASS: This indicates that this course is restricted to
+                            certain classifications ( e.g., juniors or seniors). In order to
+                            bypass this restriction, the department must allow access.
+                          ● COLLEGE: This indicates that the course is restricted to a
+                            certain college. Permission to enroll in this course can be
+                            granted by the school/college.
+                          ● DEPARTMENT: To get permission to register for this
+                            class contact the office of the academic department offering
+                            the course. The department needs to process a system
+                            override, if approved.
+
+                       For additional questions or concerns about these restrictions,
+                       consult with your Academic Advisor or the appropriate
+                       department.
+
+CRN is Invalid         Check digits assigned to course are inputted correctly
+
+Holds on record        Registration is prohibited due to student account holds. For more
+                       information on holds, please reference Holds(Section in manual)
+
+Instructor Signature   Written permission from the course instructor is needed to register
+                       for this class. You will need to ask the instructor typically through
+                       email. It’s best practice to include your name, major, year, and a
+                       reason for wanting to join. If approved, your course instructor must
+                       submit the written permission to your Academic Advisor for
+                       processing.
+
+Maximum Hours          This error means you have met the specific number of maximum
+Exceeded               credit hours depending on your school or college. There are
+                       specific requirements to request that your credit hours be increased.
+                       Approval from the appropriate Academic Advisor or Dean must be
+                       received in the Office of the Registrar. An increase could cause
+                       excess tuition rates!
+
+                       For credit increases at or below the general maximum (e.g., 21
+                       credit hours for undergraduate students), meet with your Academic
+Advisor for further assistance.
+
+For all credit hour increases above the maximum (e.g., 22 or more
+credit hours for undergraduate students), you need to consult with
+the Academic Dean of your school/college.
+Additional Resources
+
+                  Purpose                         Link/Contact
+
+   Official Howard Registration homepage   ​https://tinyurl.com/3bmctr4v
+
+               Dean contacts               https://tinyurl.com/db823emn
+
+         Majors/Programs Directory         https://tinyurl.com/db823emn
+
+       Departmental contacts database      https://tinyurl.com/2p88fsem
+
+        HU Scholarship appeal form         https://tinyurl.com/2p8v44sn
+
+              Course catalogue             https://tinyurl.com/mvddrtec
+
+            Dynamic course list            https://tinyurl.com/29hvrt9s
+
+              Advisor contacts             ​https://tinyurl.com/2r9kp96z
+
+           Create sample schedule          https://tinyurl.com/2p93tmh2
+
+          Transfer credit approval         https://tinyurl.com/y2wsfwtj
+                                             admission@howard.edu
+
+           Graduation Instructions         https://tinyurl.com/yw7fbbft
+
+    IT troubleshoot contact for BisonWeb     huhelpdesk@howard.edu
+
+        HU Scholarship appeal form         https://tinyurl.com/2p8v44sn
+
+          Course withdrawal form           https://tinyurl.com/2p83y5un
+
+        Total withdrawal request form      https://tinyurl.com/2p94uxwj
+
