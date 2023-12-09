@@ -10,17 +10,30 @@ cursor.execute('''
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         username TEXT,
         password TEXT,
-        usertype TEXT
+        usertype TEXT,
+        first_name TEXT,
+        last_name TEXT,
+        student_id TEXT,
+        classification TEXT,
+        gpa REAL,
+        expected_graduation_date TEXT
     )
 ''')
+
 conn.commit()
 
 class User:
-    def __init__(self, user_id, username, password, usertype):
+    def __init__(self, user_id, username, password, usertype, first_name=None, last_name=None, student_id=None, classification=None, gpa=None, expected_graduation_date=None):
         self.user_id = user_id
         self.username = username
         self.password = password
         self.usertype = usertype
+        self.first_name = first_name
+        self.last_name = last_name
+        self.student_id = student_id
+        self.classification = classification
+        self.gpa = gpa
+        self.expected_graduation_date = expected_graduation_date
 
 class Student(User):
     pass
@@ -29,29 +42,42 @@ class Admin(User):
     pass
 
 def login(username, password, usertype):
-    # Logic to check if the username, password, and usertype match a user record
     cursor.execute('''
-        SELECT * FROM users WHERE username = ? AND password = ? AND usertype = ?
+        SELECT * FROM users 
+        WHERE username = ? AND password = ? AND usertype = ?
     ''', (username, password, usertype))
     
     user_data = cursor.fetchone()
 
     if user_data:
-        user_id, username, password, usertype = user_data
+        # Now unpack all values from user_data
+        user_id, username, password, usertype, first_name, last_name, student_id, classification, gpa, expected_graduation_date = user_data
         if usertype.lower() == 'student':
-            return Student(user_id, username, password, usertype)
+            return Student(user_id, username, password, usertype, first_name, last_name, student_id, classification, gpa, expected_graduation_date)
         elif usertype.lower() == 'admin':
             return Admin(user_id, username, password, usertype)
-
     return None
 
-def sign_up(username, password, usertype):
-    # Logic to create a new user and add to the database
-    cursor.execute('''
-        INSERT INTO users (username, password, usertype) VALUES (?, ?, ?)
-    ''', (username, password, usertype))
-    conn.commit()
 
+def sign_up(username, password, usertype):
+    if usertype.lower() == 'admin':
+        cursor.execute('''
+            INSERT INTO users (username, password, usertype) VALUES (?, ?, ?)
+        ''', (username, password, usertype))
+    elif usertype.lower() == 'student':
+        first_name = input("Enter your first name: ")
+        last_name = input("Enter your last name: ")
+        student_id = input("Enter your student ID (in the format @XXXXXXXX): ")
+        classification = input("Enter your classification: ")
+        gpa = float(input("Enter your current GPA: "))
+        expected_graduation_date = input("Enter your expected graduation date (YYYY-MM-DD): ")
+        
+        cursor.execute('''
+            INSERT INTO users (username, password, usertype, first_name, last_name, student_id, classification, gpa, expected_graduation_date)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (username, password, usertype, first_name, last_name, student_id, classification, gpa, expected_graduation_date))
+
+    conn.commit()
     print(f"New {usertype} created - Username: {username}, Password: {password}")
 
 def main():
