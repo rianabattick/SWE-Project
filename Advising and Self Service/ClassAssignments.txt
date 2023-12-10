@@ -1,0 +1,41 @@
+Class | Teachers
+CSCI 100 | Torrance Fennell -Anietie Andy -Anamika Rupa
+CSCI 135 | Anietie Andy -Noha Hazzazi -Anamika Rupa
+CSCI 136 | Vijay Chaudhary -Gloria Washington
+CSCI 172 | Legand Burge 
+CSCI 201 | Jiang Li
+CSCI 202 | Jiang Li -Linwei Niu
+CSCI 213 | Legand Burge -Todd Shurn
+CSCI 350 | Linwei Niu
+CSCI 354 |Jeremy Blackstone -Anamika Rupa
+CSCI 363 | Bernard Woolfolk
+CSCI 365 | Guy Lingani
+CSCI 375 | Legand Burge
+CSCI 383 | Gloria Washington
+CSCI 402 | Vijay Chaudhary
+CSCI 422 | Todd Shurn
+CSCI 432 | Chunmei Liu
+CSCI 449 | Noha Hazzazi 
+CSCI 454 | Jeremy Blackstone
+CSCI 470 | Vijay Chaudhary
+CSCI 471 | Legand Burge
+CSCI 475 | Legand Burge
+CSCI 479 | Danda Rawat 
+CSCI 481 | Legand Burge
+CSCI 490 | Legand Burge
+CSCI 491 | Harry Keeling
+CSCI 492 | Harry Keeling
+CSCI 498 | Reginald Hobbs
+CSCI 540 | Bernard Woolfolk
+CSCI 572 | Chunmei Liu -Noha Hazzazi 
+CSCI 580 | Gloria Washington
+CSCI 599 | Harry Keeling -Jiang Li -Chunmei Liu -Moses Garuba -Legand Burge -Gloria Washington
+CSCI 601 | Danda Rawat 
+CSCI 652 | Jiang Li -Chunmei.Liu -Moses Garuba -Legand Burge  -Harry Keeling -Moses Garuba -Gloria Washington -Gedare Bioom -Danda Rawat
+CSCI 659 | Danda Rawat
+CSCI 680 | Moses Garuba
+CSCI 699 | Chunmei Liu -Legand Burge -Gloria Washington -Danda Rawat
+CSCI 785 | Danda Rawat
+CSCI 799 | Legand Burge -Moses Garuba
+CSCI 991 | Harry Keeling
+CSCI 999 | Harry Keeling
