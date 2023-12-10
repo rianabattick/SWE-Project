@@ -1,0 +1,123 @@
+                                        PROGRAM SCHEME
+                                          Computer Science
+                                College of Engineering and Architecture
+
+
+Degree Level: Undergraduate
+NOTES: *Students should complete one of their divisional requirements within the African
+American course cluster. Students must make two science lecture and lab subjects chosen from
+Physics, Biology and Chemistry. One science subject must be taken for two semesters (i.e.
+CHEM 003 and CHEM 005 and CHEM 004 and CHEM 006).
+
+** Technical electives must be chosen with the approval of the student’s academic advisor
+
+First Year
+Fall
+    Semester           Course                          Course Name                              Credit
+    (Fall, Spring,
+      Summer)
+                       Number                                                                   Hours
+ Fall                CSCI 120        Explorations in Computer Science                      2
+ Fall                                *Non-Technical Elective (Divisional studies A, B or   3
+                                     C)
+ Fall                                Science Lecture A                                     4
+ Fall                                Science Lab A                                         0
+ Fall                ENGW            Freshman Composition I (ENGW 002 or ENGW              3
+                                     004)
+ Fall                CSCI 100        Introduction to Computer Science                      3
+                                                                           Total Credits   15
+
+Spring
+   Semester            Course                          Course Name                              Credit
+    (Fall, Spring,
+      Summer)
+                       Number                                                                   Hours
+ Spring              CSCI 135        Computer Science I                                    4
+ Spring              CSCI 212        Linux Lab                                             1
+ Spring              MATH 156        Calculus I                                            4
+ Spring              ENGW            Freshman Composition II (ENGW 003 or ENGW             3
+                                     005)
+ Spring              SLMC 101        Principles of Speech                                  3
+                                                                          Total Credits    15
+                                                                          
+Second Year
+Fall
+    Semester              Course Number        Course Name           Credit Hours
+ (Fall, Spring, Summer)
+
+
+ Fall                     CSCI 136        Computer Science II        3
+ Fall                     CSCI 201        Computer Organization I 3
+ Fall                     MATH 157        Calculus II                4
+ Fall                                     Science Lecture B (1)      4
+ Fall                                     Science Lab B (1)          0
+                                                    Total Credits    14
+
+
+Spring
+   Semester               Course Number         Course Name          Credit Hours
+ (Fall, Spring, Summer)
+
+
+ Spring                   CSCI 354        Computer Science III       3
+ Spring                   CSCI 375        Software Engineering       3
+ Spring                   CSCI 202        Computer Organization II 3
+ Spring                   MATH 181        Discrete Structures        3
+ Spring                                   Science Lecture B (2)      4
+ Spring                                   Science Lab B (2)          0
+                                                        Total Credits 16
+
+Third Year
+Fall
+    Semester              Course Number                                    Credit Hours
+ (Fall, Spring, Summer)
+
+
+ Fall                     CSCI 341        Theory of Computation            3
+ Fall                     CSCI 401        Operating Systems                3
+ Fall                     CSCI 470        Fundamentals of Algorithms       3
+ Fall                     CSCI 449        Computer Networks                3
+ Fall                     CSCI 453        Introduction to Cybersecurity    3
+                                                          Total Credits    15
+Spring
+   Semester                 Course Number               Course Name                Credit Hours
+ (Fall, Spring, Summer)
+
+
+ Spring                     CSCI 350        Structure of Programming Languages     3
+ Spring                                     **Technical Elective                   3
+ Spring                     CSCI 432        Database Systems                       3
+ Spring                     ENGL 009        Technical Writing                      3
+ Spring                     MATH 180        Introduction to Linear Algebra         3
+                                                                   Total Credits   15
+
+Fourth Year
+Fall
+  Semester                     Course Number                                                               Credit
+    (Fall, Spring,
+      Summer)
+                                                                                                           Hours
+ Fall                     CSCI 491                     Senior Project I                                3
+ Fall                     CSCI 363                     Large Scale Programming                         3
+ Fall                     CSCI 473                     Applied Data Science                            3
+ Fall                                                  **Technical Elective                            3
+ Fall                                                  **Technical Elective                            3
+                                                                                         Total         15
+                          Credits
+
+Spring
+   Semester                    Course                           Course Name                            Credit
+     (Fall, Spring,
+       Summer)
+                               Number                                                                  Hours
+ Spring                     CSCI 492        Senior Project II                                     3
+ Spring                                     **Technical Elective                                  3
+ Spring                                     **Technical Elective                                  3
+ Spring                                     *Non-Technical Elective (Divisional studies A, B or   3
+                                            C)
+ Spring                                     *Non-Technical Elective (Divisional studies A, B or   3
+                                            C)
+                                                                                  Total Credits   15
+
+                                                                                   TOTAL CREDITS: 120
+
