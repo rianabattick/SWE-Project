@@ -11,9 +11,16 @@ from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain.llms import OpenAI
 from langchain.vectorstores import Chroma
 
-import constants
 
-os.environ["OPENAI_API_KEY"] = constants.APIKEY
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Access API key
+OPENAI_API_KEY= os.environ.get("OPENAI_API_KEY")
+
+
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
 PERSIST = False
