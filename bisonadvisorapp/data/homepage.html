@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .banner {
+            background-color: #000080;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Arrange buttons vertically */
+            align-items: center;
+            height: 100vh;
+        }
+
+        .button {
+            width: 200px;
+            height: 100px;
+            background-color: #0074d9;
+            color: white;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 10px; /* Add spacing between buttons */
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        #backButton {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #backButton:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Resources</h1>
+    </div>
+
+    <div class="button-container">
+        <button class="button" onclick="redirectToCourseCatalog()">Course Catalog</button>
+        <button class="button" onclick="redirectToSelfService()">Self Service</button>
+        <button class="button" onclick="redirectToDegreeRequirements()">Degree Requirements</button>
+    </div>
+
+    <button id="backButton" onclick="goBack()">Back</button>
+
+    <script>
+        function redirectToCourseCatalog() {
+            // Implement redirection logic for Course Catalog
+            window.location.href = 'Course-Catalog.html';
+        }
+
+        function redirectToPolicies() {
+            // Implement redirection logic for Policies
+            // Example: window.location.href = 'policies.html';
+        }
+
+        function redirectToDegreeRequirements() {
+            // Implement redirection logic for Degree Requirements
+            // Example: window.location.href = 'degree-requirements.html';
+        }
+
+        function goBack() {
+            // Implement redirection logic to go back to the previous page
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
