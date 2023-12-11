@@ -1,26 +1,29 @@
 import sqlite3
 
+
+def database():
 # Connect to the database 
-conn = sqlite3.connect('users.db')
-cursor = conn.cursor()
+    conn = sqlite3.connect('users.db')
+    cursor = conn.cursor()
 
 # Create a table to store user information
-cursor.execute('''
-    CREATE TABLE IF NOT EXISTS users (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        username TEXT,
-        password TEXT,
-        usertype TEXT,
-        first_name TEXT,
-        last_name TEXT,
-        student_id TEXT,
-        classification TEXT,
-        gpa REAL,
-        expected_graduation_date TEXT
-    )
-''')
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT,
+            password TEXT,
+            usertype TEXT,
+            first_name TEXT,
+            last_name TEXT,
+            student_id TEXT,
+            classification TEXT,
+            gpa REAL,
+            expected_graduation_date TEXT
+            )
+    ''')
 
-conn.commit()
+    conn.commit()
+    conn.close()
 
 class User:
     def __init__(self, user_id, username, password, usertype, first_name=None, last_name=None, student_id=None, classification=None, gpa=None, expected_graduation_date=None):
@@ -41,7 +44,10 @@ class Student(User):
 class Admin(User):
     pass
 
-def login(username, password, usertype):
+
+
+def login(conn,username, password, usertype):
+    cursor = conn.cursor()
     cursor.execute('''
         SELECT * FROM users 
         WHERE username = ? AND password = ? AND usertype = ?
@@ -59,7 +65,8 @@ def login(username, password, usertype):
     return None
 
 
-def sign_up(username, password, usertype):
+def sign_up(conn, username, password, usertype):
+    cursor = conn.cursor()
     if usertype.lower() == 'admin':
         cursor.execute('''
             INSERT INTO users (username, password, usertype) VALUES (?, ?, ?)
@@ -78,6 +85,7 @@ def sign_up(username, password, usertype):
         ''', (username, password, usertype, first_name, last_name, student_id, classification, gpa, expected_graduation_date))
 
     conn.commit()
+    conn.close()
     print(f"New {usertype} created - Username: {username}, Password: {password}")
 
 def main():
@@ -134,8 +142,3 @@ def main():
         else:
             print("Invalid choice. Please enter a valid option.")
 
-if __name__ == "__main__":
-    main()
-
-# Close the database connection when done
-conn.close()
