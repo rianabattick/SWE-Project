@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Calendars</title>
+    <style>
+        body {
+            text-align: left;
+            margin: 20px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+      
+        button {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            padding: 10px;
+        }
+
+        #backButton {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="pageHeading">Academic Calendars</h1>
+        <p>Please Select a Calendar</p>
+    </header>
+
+    <main>
+        <button id="backButton" onclick="goBack()">Back</button>
+        <button onclick="redirectToAcademicCalendar1()">2022-2023</button>
+        <button onclick="redirectToAcademicCalendar2()">2023-2024</button>
+    </main>
+
+    <script>
+        function goBack() {
+            // Implement logic to go back
+            window.history.back();
+        }
+
+        function redirectToAcademicCalendar2() {
+            // Implement redirection logic for Academic Calendar based on the selected year
+            window.location.href = '2023-2024-Academic-Calendar.txt';
+        }
+        
+        function redirectToAcademicCalendar1() {
+            // Implement redirection logic for Academic Calendar based on the selected year
+            window.location.href = '2022-2023-Academic-Calendar.txt';
+        }
+    </script>
+</body>
+</html>
