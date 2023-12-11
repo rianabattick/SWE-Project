@@ -26,24 +26,27 @@ def add_or_edit_course(course_dict):
       "Do you want to add a new course (Enter 'A'), edit an existing course (Enter 'B')? "
   ).upper()
   if user_choice == 'A':
-    new_course = input("Enter the name of the new course: ").strip()
-    new_prerequisites = input("Enter the prerequisites separated by commas: ").strip().split(',')        #split by commas
+    new_course = input("Enter the full name of the new course: ").strip()
+    new_prerequisites = input(
+        "Enter the prerequisites separated by commas (Enter full course names): "
+    ).strip().split(',')  #split by commas
     course_dict[new_course] = new_prerequisites
   elif user_choice == 'B':
     existing_course = input(
-        "Enter the name of the course you want to edit: ").strip()      
+        "Enter the name of full name of the course you want to edit: ").strip(
+        )
     if existing_course in course_dict:
       print(
           f"Current prerequisites for {existing_course}: {', '.join(course_dict[existing_course])}"
       )
       edit_choice = input(
           "Do you want to add (A) or remove (B) prerequisites? ").upper()
-
       if edit_choice == 'A':
         new_prerequisites = input(
             "Enter the prerequisites to add, separated by commas: ").strip(
             ).split(',')
-        course_dict[existing_course].extend(new_prerequisites)              #adds new course to course dictionary
+        course_dict[existing_course].extend(
+            new_prerequisites)  #adds new course to course dictionary
       elif edit_choice == 'B':
         remove_prerequisites = input(
             "Enter the prerequisites to remove, separated by commas: ").strip(
@@ -51,14 +54,17 @@ def add_or_edit_course(course_dict):
         course_dict[existing_course] = [
             prereq for prereq in course_dict[existing_course]
             if prereq not in remove_prerequisites
-        ]                                                      #only prints wanted courses to file
+        ]  #only prints wanted courses to file
       else:
         print(
             "Invalid choice. Please enter 'A' to add or 'B' to remove prerequisites."
         )
     else:
       print(f"Course '{existing_course}' not found in the dictionary.")
-
+  # Write the updated information to 'CoursePrerequisites.txt'
+  with open('CoursePrerequisites.txt', 'w') as file:
+    for course, prerequisites in course_dict.items():
+       file.write(f"{course}| {', '.join(prerequisites)}\n")
 
 def rubrikDictionary(file_path):
   rubrik_dict = {}
@@ -94,7 +100,7 @@ def find_matching_courses(course_dict, search_terms):
 def print_prerequisites(course_dict, course_name):
   if course_name in course_dict:
     prerequisites = course_dict[course_name]
-    print(f"Prerequisites for {course_name}:")
+    print(f"Prerequisites for {course_name} are:")
     for prerequisite in prerequisites:
       print(prerequisite)
   else:
@@ -134,11 +140,6 @@ def print_course_teachers(course_dict, course_name):
     print(f"Course '{course_name}' not found in the dictionary.")
 
 
-#-----------------------ADD OR EDIT COURSE
-course_dict = prereqDictionary('CoursePrerequisites.txt')
-add_or_edit_course(course_dict)
-
-
 #=---------------------------GET TEACHER EMAIL
 def make_employee_dict(file_path):
   employee_dict = {}
@@ -175,6 +176,11 @@ def get_employee_email(employee_dict, employee_name):
     print(f"Employee '{employee_name}' not found in the dictionary.")
 
 
+#-----------------------ADD OR EDIT COURSE
+course_dict = prereqDictionary('CoursePrerequisites.txt')
+add_or_edit_course(course_dict)
+print("\n\n")
+
 #____________________Search what class have search class as a prequisite
 #file_path = 'CoursePrerequisites.txt'
 file_path = 'PrerequisitesClass.txt'
@@ -193,31 +199,37 @@ else:
   for course in matching_courses:
     print(course)
 
+print("\n\n")
 #---------------------------------TEST PREREQUISITES WHEN GIVEN A CLASS
 #search_class = 'CSCI 135 Computer Science I'
 file_path = 'SearchClass.txt'
 course_dict = prereqDictionary(file_path)
-
-search_class = input("Please type the name of a course you want to see the prequisites for.\nEnter full name (e.g CSCI 136 = Computer Science II) : ")
-print(f"The prerequisites for class {search_class} are: ")
+search_class = input(
+    "Please type the name of a course you want to see the prequisites for.\nEnter abbreviated name (e.g CSCI 136 = Computer Science II) : "
+)
+#print(f"The prerequisites for class {search_class} are: ")
 print_prerequisites(course_dict, search_class)
-
+print('\n\n')
 #------------------TEST Teacher CLASS ASSIGNMENT TEXT
 #file_path = 'ClassAssignments.txt'
 teacher_dict = course_teachers('ClassAssignments.txt')
 #for course, teachers in teacher_dict.items():
 # print(f'{course}: {teachers}')
 #--------------------find teacher
-search_course = input("Please type course you are searching teachers for: (Use course abbreviation eg. CSCI 135 = Computer Science I)\nEnter course here: ")
+search_course = input(
+    "Please type course you are searching teachers for: (Use course abbreviation eg. CSCI 135 = Computer Science I)\nEnter course here: "
+)
 search_course = search_course.upper()
 print_course_teachers(teacher_dict, search_course)
-
+print('\n\n')
 #----------------------------------SEARCH FOR TEACHER EMAIL
-search_teacher = input("Would you like to search for a teacher's email?\nEnter 1 for yes, 2 for no")
-if (search_teacher == 1):
-  make_employee_dict('EmployeeInfo.txt')
+search_teacher = input(
+    "Would you like to search for a teacher's email?\nEnter A for yes, B for no\nEnter choice here: "
+).upper()
+if search_teacher == 'A':
+  employee_dict = make_employee_dict('EmployeeInfo.txt')
   find_teacher = input("Please type the teacher's name: ")
-  print(get_employee_email, find_teacher)
+  get_employee_email(employee_dict, find_teacher)
 
 #-----------------------------COURSE CALENDER
 #print(
