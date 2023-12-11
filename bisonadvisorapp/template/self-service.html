@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Self Service</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .banner {
+            background-color: #000080;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Arrange buttons vertically */
+            align-items: center;
+            height: 100vh;
+        }
+
+        .button {
+            width: 200px;
+            height: 100px;
+            background-color: #0074d9;
+            color: white;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 10px; /* Add spacing between buttons */
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        #backButton {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #backButton:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Student Self Service</h1>
+    </div>
+
+    <div class="button-container">
+        <button class="button" onclick="redirectToPrerequisites()">Prerequisites for a Class</button>
+        <button class="button" onclick="redirectToSpecificPrerequisites()">Specific Class Prerequisites</button>
+        <button class="button" onclick="redirectToTeachers()">Teachers for a Class</button>
+        <button class="button" onclick="redirectToTeachersEmail()">Teachers' Email</button>
+    </div>
+
+    <button id="backButton" onclick="goBack()">Back</button>
+
+    <script>
+        function redirectToPrerequisites() {
+            // Implement redirection logic for Prerequisites for a Class
+            window.location.href = 'prereq-class.html';
+        }
+
+        function redirectToSpecificPrerequisites() {
+            // Implement redirection logic for Specific Class Prerequisites
+            window.location.href = 'specific-prereq.html';
+        }
+
+        function redirectToTeachers() {
+            // Implement redirection logic for Teachers for a Class
+            window.location.href = 'teacher-for-class.html';
+        }
+
+        function redirectToTeachersEmail() {
+            // Implement redirection logic for Teachers' Email
+            window.location.href = 'teacher-email.html';
+        }
+
+        function goBack() {
+            // Implement redirection logic to go back to the previous page
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
