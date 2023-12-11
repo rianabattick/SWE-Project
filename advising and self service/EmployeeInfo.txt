@@ -1,0 +1,34 @@
+Teacher | Position,email
+Moses Garuba | Associate Dean for Academic Affairs, mgaruba@Howard.edu
+Ahmed Rubaai | Chair and Professor, arubaai@Howard.edu
+Imtiaz Ahmed | Assistant Professor, Imtiaz.Ahmed@Howard.edu
+Anietie Andy | Assisant Professor, N/A
+Jermey Blackstone | Assisant Professor, jeremy.m.blackstone@howard.edu
+Peter Bofah | Assisant Professor, pbofah@Howard.edu
+Legand Burge | Professor of Computer Science, lburge@Howard.edu
+Shadezz Edwards | Administrative Assistant II ,shadezz.edwards@Howard.edu
+Torrance Fennell | Adjunct Lecturer, torrance.fennell@Howard.edu
+Tepper Gill |Professor,tgill@Howard.edu
+Noha Hazzazi | Assistant Professor, noha.hazzazi@Howard.edu
+Reginald Hobbs | Adjunct Lecturer, reginald.hobbs@Howard.edu
+Harry Keeling |Associate Professor,hkeeling@Howard.edu
+Charles Kim | Professor,ckim@Howard.edu
+Fadel Lashhab | Assistant Professor, fadel.lashhab@Howard.edu
+Jiang Li | Associate Professor , jli@Howard.edu
+Guy Lingani | Adjunct Lecturer, gmlingani@Howard.edu
+Chunmei Liu |Professor, chuLiu@Howard.edu
+Olumide Malomo | Lecturer, olumide.malomo@Howard.edu
+James Momoh |Professor,jmomoh@Howard.edu
+Linwei Niu | Assistant Professor,linwei.niu@Howard.edu
+Candice Parker | Administrative Assistant III, N/A 
+Danda Rawat |Professor and Associate Dean for Research & Graduate Studies ,danda.rawat@Howard.edu
+Anamika Rupa |Lecturer, N/A
+Hassan Salmani |Associate Professor, hassan.salmani@Howard.edu
+Eric Seabron |Assistant Professor,eric.seabron@howard.edu
+Todd Shurn |Associate Professor,tshurn@Howard.edu
+Gloria Washington |Associate Professor,gloria.washington@Howard.edu
+Bernard Woolfolk | Adjunct Lecturer, bernard.p.woolfolk@Howard.edu
+Su Yan|Assistant Professor,su.yan@Howard.edu
+
+
+

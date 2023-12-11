@@ -1,0 +1,39 @@
+CSCI 135| CSCI 100 Intro To Computer Science
+CSCI 136| CSCI 135 Computer Science I
+CSCI 354| CSCI 136 Computer Science II
+CSCI 201| CSCI 135 Computer Science
+CSCI 202| CSCI 201 Computer Organization I
+CSCI 363| CSCI 136 Computer Science II
+CSCI 375| CSCI 354 Computer Science III
+CSCI 376| CSCI 375 Software Engineering
+CSCI 350| CSCI 201 Computer Organization I, CSCI 341 Theory of Computation
+CSCI 472| CSCI 375 Software Engineering
+CSCI 410| 
+CSCI 341| CSCI 136 COmputer Science II, Math 181 Discrete Structures
+CSCI 432| CSCI 136 Computer Science II
+CSCI 401| CSCI 202 Computer Organization II,CSCI 363 Large Scale Programming
+CSCI 470| CSCI 354 Computer Science III
+CSCI 491| 
+CSCI 492| CSCI 491 Senior Project I
+CSCI 165| 
+CSCI 203| CSCI 136 Computer Science II
+CSCI 364| 
+CSCI 379| CSCI 354 Computer Science III
+CSCI 390| 
+CSCI 391| Junior Standing
+CSCI 402| CSCI 363 Large Scale Programming
+CSCI 421| CSCI 354 Computer Science III,CSCI 375 Software Engineering
+CSCI 422| CSCI 421 Computer and Video Game Development
+CSCI 440| CSCI 354 Computer Science III
+CSCI 450| CSCI 354 Computer Science III,CSCI 201 Computer Organization I,CSCI 470 Fundamentals of Algorithms,MATH 181 Discrete Structures
+CSCI 451| CSCI 450 Data communications
+CSCI 453| Junior Standing
+CSCI 454| CSCI 453 Intro to Cybersecurity I
+CSCI 460| CSCI211 Unix Lab
+CSCI 474| CSCI 470 Fundamentals of Algorithms,MATH 189 Probability and Statistics
+CSCI 475| CSCI 354 Computer Science III,MATH 189 Probability and Statistics
+CSCI 476| CSCI 350 Structures of Programming Languages
+CSCI 478| CSCI 376 Operations Research
+CSCI 493| Junior Standing
+CSCI 480| Junior Standing
+CSCI 498| Junior Standing
