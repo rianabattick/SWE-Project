@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <style>      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            display: flex;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #profile-section {
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        #profile-picture {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        #student-info {
+            flex-grow: 1;
+        }
+
+
+        p {
+            color: #555;
+            margin: 5px 0;
+        }
+
+        button {
+            #position: absolute;
+            bottom: 10px;
+            left: 10px;
+            display: block;
+            margin: 15px auto;
+            width: 150px;
+            padding: 2.5px;
+        }
+
+        button:hover {
+            background-color: #000080;
+      }
+      
+        #button: {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: block;
+            margin: 15px auto;
+            width: 150px;
+            padding: 10px;
+        }      
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="usernameHeading">Student Profile</h1>
+    </header>
+
+    <main>
+        <section id="profile-section">
+            <img id="profile-picture" src="https://placekitten.com/150/150" alt="Profile Picture">
+            <button onclick="editInformation()">Edit Information</button>
+        </section>
+
+        <section id="student-info">
+            <h1 id="studentName">John Doe</h1>
+            <p id="classification">Classification: Junior</p>
+            <p id="expectedGraduation">Expected Graduation: May 2025</p>
+            <p id="studentID">Student ID: @12345678</p>
+            <p id="gpa">GPA: 3.75</p>
+            <button id="backbutton" onclick="redirectToStudentDashboard()">Back</button>
+        </section>
+    </main>
+
+    <script>
+        var username = "Student Profile";
+        document.getElementById("usernameHeading").textContent = username;
+
+        function redirectToStudentDashboard() {
+            window.location.href = 'student-dashboard.html';
+        }
+
+        function editInformation() {
+            // Prompt the user for new information
+            var newClassification = prompt("Enter new classification:");
+            var newGraduation = prompt("Enter new expected graduation:");
+            var newStudentID = prompt("Enter new student ID:");
+            var newGPA = prompt("Enter new GPA:");
+
+            // Update the displayed information
+            document.getElementById("classification").textContent = "Classification: " + newClassification;
+            document.getElementById("expectedGraduation").textContent = "Expected Graduation: " + newGraduation;
+            document.getElementById("studentID").textContent = "Student ID: " + newStudentID;
+            document.getElementById("gpa").textContent = "GPA: " + newGPA;
+        }
+    </script>
+</body>
+</html>
