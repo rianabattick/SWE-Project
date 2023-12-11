@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* Course listing styles */
+        .course-listing {
+            margin-bottom: 20px;
+        }
+
+        .course-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .course-code {
+            color: #777;
+        }
+
+        .course-description {
+            margin-top: 10px;
+        }
+
+        /* Back button styles */
+        #backButton {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            padding: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        #backButton:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Course Catalog</h1>
+    </header>
+
+    <main>
+
+        <!-- Sample Course Listings -->
+        <div class="course-listing">
+            <h2 class="course-title">Introduction to Computer Science</h2>
+            <p class="course-code">CSCI 101</p>
+            <p class="course-description">This course provides an introduction to computer science concepts and programming.</p>
+        </div>
+
+        <div class="course-listing">
+            <h2 class="course-title">Calculus I</h2>
+            <p class="course-code">MATH 101</p>
+            <p class="course-description">An introductory course in calculus, covering limits, derivatives, and integrals.</p>
+        </div>
+
+        <div class="course-listing">
+            <h2 class="course-title">Art History: Renaissance to Modern Art</h2>
+            <p class="course-code">ARTH 201</p>
+            <p class="course-description">Explore the history of art from the Renaissance period to modern art movements.</p>
+        </div>
+
+        <!-- Add more course listings as needed -->
+      
+
+        <!-- Back button -->
+        <button id="backButton" onclick="goBack()">Back</button>
+
+    </main>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+</html>
