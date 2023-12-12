@@ -1,11 +1,14 @@
-from flask import Flask, render_template,url_for,request,redirect,g
+from flask import Flask, render_template,url_for,request,redirect,g, jsonify
 import sqlite3
-import requests
+from chatgpt import initialize_chatbot, process_user_message
 from loginpage import login, sign_up, database
+
 
 app = Flask(__name__)
 
 app.config['DATABASE'] = 'users.db'
+# Initialize the chatbot
+chat_chain, chat_history = initialize_chatbot()
 
 def get_db():
     db = getattr(g, '_database', None)
@@ -93,9 +96,26 @@ def register():
     return render_template("signup.html")
 
 #chatbot
-@app.route("/chatbot")
+@app.route("/chatbot", methods=["GET", "POST"] )
 def chatbot():
+    if request.method == "POST":
+        # Handle user messages from the form submission
+        user_message = request.form.get("user_message")
+
+        # Process the user message using the chatbot
+        ai_message = process_user_message(chat_chain, chat_history, user_message)
+
+        # Update chat history
+        chat_history.append((user_message, ai_message))
+
+        # Render the template with the updated chat history
+        return render_template("AI-Engine.html", chat_history=chat_history)
+
+        # Render the initial template when the page is loaded
     return render_template("AI-Engine.html")
+
+
+
 
 '''
 

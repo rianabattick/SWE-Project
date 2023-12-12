@@ -1,0 +1,528 @@
+COURSE DESCRIPTIONS
+Computer Science
+CSCI 100 Introduction to Computer Science – 3 credits
+This course introduces the fundamentals of computer science. A brief examination of critical,
+creative, systems and scientific thinking, is followed by more details on computational thinking
+to analyze and solve interdisciplinary problems. The focus is hands on computing exercises and
+group exercises that stress the importance of algorithms and problem solving. Upon completion
+of this course students will have the ability to design a methodological algorithm to solve an
+everyday problem and the ability to write and debug Python programs to achieve a desired
+outcome.
+CSCI 120 Explorations in Computer Science – 2 credits
+This is a required freshman course introducing CS fundamentals such as: binary arithmetic,
+computational linear algebra and python programming. Course explores CS sub-domains such
+as: artificial intelligence, cybersecurity, data science, machine learning, interactive media
+(games), human computer Interface (HCI) usability testing, and robotics. In addition, students
+will be exposed to design thinking for innovation. Class will include presentations from leading
+experts from academia, government and industry allowing students to ask questions directly.
+Topical assignments will expose students to introductory topics through individual exercises
+and team projects.
+CSCI 135 Computer Science I (C++) – 4 credits
+This course introduces the discipline of computer programming. There is a closed laboratory to
+reinforce lecture topics and introduce new topics. Course is designed to expose students to
+basic programming concepts and to the use of the C++ language. This course is designed to
+enhance the student’s ability to design, develop and test/debug programs. Each student will
+increase his or her skill in writing correct and maintainable programs. Emphasis will be placed
+on problem analysis and on the subsequent development of algorithms. Several standard data
+types will be discussed, and the student will gain an understanding of the issues relating to the
+use, design and implementation of each type in C++. A major focus of the lectures will be to
+provide an overview of real-world problem-solving concepts and top-down software design.
+CSCI 135 Computer Science I (Python) – 4 credits
+This course introduces the discipline of computer programming. There is a closed laboratory to
+reinforce lecture topics and introduce new topics. Course is designed to expose students to
+basic programming concepts and to the use of the Python language. This course is designed to
+enhance the student’s ability to design, develop and test/debug programs. Each student will
+increase his or her skill in writing correct and maintainable programs. Emphasis will be placed
+on problem analysis and on the subsequent development of algorithms. Several standard data
+types will be discussed, and the student will gain an understanding of the issues relating to the
+use, design and implementation of each type in Python. A major focus of the lectures will be to
+provide an overview of real-world problem-solving concepts and top-down software design.
+
+CSCI 136 Computer Science II (C++) – 3 credits
+This course exposes students to the software development life cycle with a focus on the
+concepts and use of the object-oriented paradigm in problem analysis, solution design,
+software development and implementation. C++ is the primary programming language used to
+in this course to enhance the student’s ability to engineer software that is efficient,
+maintainable and cost efficient over its entire life cycle. Data abstraction is discussed in depth
+and students gain experience in the use of classes, object and member functions. Students gain
+an understanding of the development of reusable abstract data types. Software reuse is
+emphasized, and object-oriented concepts are used throughout the course. O-notation and the
+complexity of algorithms are discussed at relevant points in the course.
+CSCI 136 Computer Science II (Python) – 3 credits
+This course exposes students to the software development life cycle with a focus on the
+concepts and use of the object-oriented paradigm in problem analysis, solution design,
+software development and implementation. Python is the primary programming language used
+to in this course to enhance the student’s ability to engineer software that is efficient,
+maintainable and cost efficient over its entire life cycle. Data abstraction is discussed in depth
+and students gain experience in the use of classes, object and member functions. Students gain
+an understanding of the development of reusable abstract data types. Software reuse is
+emphasized, and object-oriented concepts are used throughout the course. O-notation and the
+complexity of algorithms are discussed at relevant points in the course.
+CSCI 165 Scientific Computing for Engineers – 3 credits
+Introduces programming and use of digital computers through symbolic programming.
+Programming includes general problem-solving and the systematic development of algorithms;
+use includes the coding of programs and practical experience in Maxima or Matlab.
+CSCI 172 Interview Prep – 3 credits
+This course covers the information and skills needed for achieving success in a technical
+interview. This course introduces students to the objective of the interview, the necessary
+preparation before attending the interview, interviewer’s mentality and purpose, different
+types of interview questions. The effect of applicant’s image, behavior and body language
+during the interview is discussed. Essential interview skills such as communication skills,
+effective listening skills, how to handle salary questions, responding to common interview
+questions, reducing anxiety and making the best impression are also covered in the course.
+CSCI 200 Intro to Mobile Application Development – 3 credits
+This class is an introduction to Android mobile application development. A student who
+successfully completes this course will understand the basic concept of mobile application
+design, factors to consider when developing mobile applications, and how to develop mobile
+applications using app development framework such as Android SDK.
+CSCI 201 Computer Organization I – 3 credits
+
+This course covers the fundamentals required to understand the relationship between
+computer hardware and software. Topics include data representation on computers, computer
+arithmetic, Boolean algebra, digital logic, and the implementation of program constructs in
+assembly languages (with MIPS as an example).
+CSCI 202 Computer Organization II – 3 credits
+This course presents the fundamental knowledge essential for understanding the operations of
+computer systems. Topics include performance evaluation, non-pipelined and pipelined
+datapath, memory hierarchies, and I/O devices.
+CSCI 203 Object-Oriented Programming Using Java – 1 credit
+This course introduces students to the Java programming and object-oriented programming
+concepts for students with previous programming experience in C/C++/Python. The course
+provides a comprehensive overview of basic programming concepts in the Java programming
+language using an object-oriented approach.
+CSCI 211 Unix Lab – 1 credit
+This course will present the basic concepts of LINUX and UNIX operating systems. Topics that
+will be examined include Vi editor, Linux Command, directories, Disks and File systems, Users
+and Groups, File Permissions, Processes, file compression, basic network use, manage files,
+create and modify files, and Shell script.
+CSCI 212 Linux Lab – 1 credit
+This course will present the basic Linux operating system concepts. Topics include command
+line interface, directories, file permissions, vi editor, processes, file compression, shell scripting
+and secure user administration.
+CSCI 263 Web Makers – 3 credits
+This course should be taken by students who are interested in learning web development but
+not sure where to start. Students will have their first web server up in one class. In this class,
+students will start with the basics and work up to a deep dive into making for the web. Students
+will be learning HTML, CSS, and Javascript. This class will be about creation and students will
+become the maker. While no previous knowledge of web development is required, makers will
+be expected to have a working knowledge of programming concepts. Makers must be
+motivated to explore the syntactic nuances of these languages independently.
+CSCI 319 Computing for Creative Games – 3 credits
+This is a “creative course in computer science”, accessible to students with little to no prior
+programming experience. The course objective is originality and design, with student-written
+software as the medium. The course fosters text-based programming understanding and skill in
+a procedural style with application to interactive art, media, and information visualization.
+Programming exercises will develop the basic vocabulary of constructs that govern static,
+dynamic, and interactive forms. Topics include the computational manipulation of point, line,
+and shape; texture, value, and color; time, change, and motion; reactivity, connectivity, and
+feedback. Students will become familiar with basic software algorithms, including idioms of
+
+sequencing, selection, iteration, and recursion; elementary data structures (arrays, files, trees),
+object-oriented interfaces and functional abstraction, and other computational principles
+(randomness, concurrency, complexity).
+CSCI 340 Robotics Linear Algebra – 3 credits
+Robotics Computational Linear Algebra provides a foundation for Robotics and Artificial
+Intelligence. An undergraduate course built around solving systems of linear equations with
+hundreds or thousands of variables, through effective algorithmic methods. The algorithms are
+applied to robotics, contemporary intelligent systems, and compelling applications. Students
+will learn how to process data from LiDARs, build spatial maps for climate data, and stabilize the
+motion of a Segway. Students completing this course will know how to formulate and perform
+relevant computations with algorithms. Students will be prepared to experience computation,
+mathematics, and science as tools to construct better, safer, more reliable robots.
+CSCI 341 Theory of Computation – 3 credits
+This course is an introduction to the classical theory of computer science. It includes a study of
+the formal relationships between machines, languages and grammars. The course will cover
+regular, context-free, context-sensitive, recursive and recursive enumerable languages,
+sequential machines and their applications to devices, processes, and programming. Also,
+studied is the role of non-determinism along with models of computation: finite state
+automata, push down automata, and Turing machines.
+CSCI 350 – Structure of Programming Languages – 3 credits
+This course will teach students the basic components of the design and analysis of computer
+programming languages as well as the fundamental computation theory that is required to
+understand those concepts. The course will also cover several non-imperative languages (unlike
+C, such as LISP and Prolog) to expose students to the diversity of programming languages.
+CSCI 354 – Computer Science III (C++) – 3 credits
+This course uses C++ to continue the study of data structures and algorithms, focusing on
+algorithmic design and problem analysis and the relationships between data representation,
+algorithm design, and program efficiency. Topics include advanced data structures, key
+algorithm design techniques, analysis of the time and space requirements of algorithms, and
+the subsequent development of solution of systems. Concrete examples will be drawn from a
+variety of domains, such as algorithms for trees and graphs, indexing and search, and real-world
+problems.
+CSCI 354 Computer Science III (Python) – 3 credits
+This course uses Python to continue the study of data structures and algorithms, focusing on
+algorithmic design and problem analysis and the relationships between data representation,
+algorithm design, and program efficiency. Topics include advanced data structures, key
+algorithm design techniques, analysis of the time and space requirements of algorithms, and
+the subsequent development of solution of systems. Concrete examples will be drawn from a
+
+variety of domains, such as algorithms for trees and graphs, indexing and search, and real-world
+problems.
+
+CSCI 363 Large Scale Programming – 3 credits
+This course will introduce the students to applications and systems in the large scale. Students
+will be introduced to the object-oriented method to software design using UML and will apply
+the object-oriented design/analysis techniques of UML to a realistic Java application. Students
+will gain familiarity with managing larger projects and OOA/D.
+CSCI 364 Web Services – 3 credits
+This course presents topics in distributed computing with particular emphasis on Web Services
+using Microsoft .NET Framework. Also, included in this course are discussions on layered
+protocols, the client-server model, remote procedure call. Students program extensively in C#
+and Visual Basic .NET.
+CSCI 365 Cloud Computing – 3 credits
+This course introduces students to the fundamental and design concepts of writing software
+applications on the cloud. This course will discuss tools required by an application programmer
+in building, deploying, and maintaining cloud applications. A combination of lectures and lab
+activities will expose students to the programming interface utilized in developing cloud
+applications.
+CSCI 375 Software Engineering – 3 credits
+This course is an introduction to the basic concepts of software engineering including the
+software lifecycle, requirements analysis, design, coding, testing and documentation.
+Professional ethics in computer science and the social impact of computing are discussed.
+Additional topics may include tools for software development, software metrics, and software
+maintenance. The objectives of the course are met using classroom lecturers, in-class labs, and
+a semester-long project developed in a team setting.
+CSCI 376 Operations Research – 3 credits
+Methodology for planning, analyzing and evaluating optimal systems: identifying and
+structuring objectives and defining performance requirements that influence the design of the
+system. Synthesizing and analyzing alternative solutions and applying optimization techniques
+for the optimum queuing system. Applications to real world systems with open and closed
+queues with emphasis on computer systems using microcomputer software packages.
+CSCI 379 Introduction to Human Computer Interaction - 3 credits
+This course introduces students to the field of human-computer interaction (HCI). HCI is an
+interdisciplinary field that integrates theories and methodologies from computer science,
+cognitive psychology, design, and many other areas. Course readings will span current theory
+and practice in interface specification, design and evaluation, as well as current and classic
+
+research papers in HCI. Students will work on both individual and team projects to design,
+implement and evaluate computer interfaces. The course is open to students from all
+disciplines, providing them with experience working in interdisciplinary design teams.
+CSCI 380 Foundations of User Experience (UX) Design - 3 credits
+Foundations of User Experience (UX) Design is the first of a series of seven courses that will
+equip you with the skills needed to apply to entry-level jobs in user experience design. UX
+designers focus on the interactions that people have with products like websites, mobile apps,
+and physical objects. UX designers make those everyday interactions usable, enjoyable, and
+accessible. The role of an entry-level UX designer might include empathizing with users,
+defining their pain points, coming up with ideas for design solutions, creating wireframes,
+prototypes, and mockups, and testing designs to get feedback. Current UX designers and
+researchers at Google will serve as your instructors, and you will complete hands-on activities
+that simulate real-world UX design scenarios. Learners who complete the seven courses in this
+certificate program should be equipped to apply for entry-level jobs as UX designers. No
+previous experience is necessary. By the end of this course, you will be able to: - Define the
+field of UX and explain why it’s important for consumers and businesses. - Understand
+foundational concepts in UX design, such as user-centered design, the design process,
+accessibility, and equity-focused design. - Identify the factors that contribute to great user
+experience design. - Review common job responsibilities of entry-level UX designers and teams
+that they work with. - Explore job opportunities and career paths within the field of user
+experience. - Explain why design sprints are an important and useful part of a UX designer’s
+work. - Start to create an online portfolio where you can showcase your upcoming work. - Join
+and participate in online UX communities.
+CSCI 383 Introduction to Affective Computing- 3 credits
+This course provides a comprehensive and interdisciplinary introduction to the topic of
+Affective Computing: i.e., computing that relates to, arises from, or deliberately influences
+emotions. This course provides an overview of the theory of human emotion and how it arises
+and influences cognition, the body and the social environment. Students are also introduced to
+techniques for recognizing and synthesizing emotional behavior and how these techniques can
+be applied to application design. The course adopts an interdisciplinary perspective and
+students will gain a strong background in the theory and practice in human-centered computing
+as it relates to decision-making, health, entertainment, and educational pedagogy.
+CSCI 390 Ethical & Social Impact of Computing - 3 credits
+This course will present the foundations of ethics in the context of computing. The broader
+social impact of computing and technology in general will also be reviewed. Areas of specific
+focus will include technology and human values, costs and benefits of technology, the character
+of technological change, and the social context of work in computer science and information
+technology.
+CSCI 400 Computer & Network Forensics I – 3 credits
+
+Computer and Network Forensics I is the first course in the two-semester series on computer
+and network forensics and focuses on computer system forensics (while the second course on
+network forensics). It consists of three major components: assembly level reverse engineering
+(to understand the logic of a program given only machine code), file system forensics (to find
+traces of past activities on data stored in nonvolatile storage) and memory forensics (to find
+traces of past stalactites on data stored in volatile storage). It will also briefly discuss the law
+aspect of digital forensics. In order to understand the materials, students are expected to have
+the following prerequisites: good programming skills in both high level (preferably C/C++) and
+assembly level, operating systems and basic familiarity with Linux and Windows.
+CSCI 401 Operating Systems – 3 credits
+This course will present the basic concepts of operating systems. Topics that will be examined
+include processes and interprocess communication/synchronization, virtual memory, program
+loading and linking system calls and system programs, interrupt handling, device and memory
+management, process scheduling, deadlock and the trade-offs in the design of large-scale
+multitasking operating systems.
+CSCI 402 Mobile Application Development – 3 credits
+This course will introduce students to developing IOS (Apple) applications which target mobile
+devices. Students will be introduced to many issues unique to mobile applications, including
+synchronization, remote data access, security and sometimes-connected networks. They will
+research topics in these areas and develop a significant project which demonstrates their
+knowledge and understanding of these issues.
+CSCI 410 Modeling & Simulation – 3 credits
+The primary goal of big data analytics is to analyze large volume of data. The analysis of big data
+requires the organization, storage, and processing of data at a scalable and efficient way which
+goes beyond the capabilities of traditional information technologies. In this course, we will
+cover modern massive data analysis technologies including different platforms, models, and
+languages, we will also look at real world applications and how they can be implemented on big
+data platforms. Topics in this course include: Map reduce/Hadoop, NoSQL stores, languages
+such as Pig Latin and JAQL, large-scale data mining and visualization. It will include
+programming projects that will provide students with hands-on experience on building dataintensive applications using existing big data tools and platforms.
+CSCI 420 Computing for Creative Games – 3 credits
+This course presents fundamental computing principles and programming techniques for
+creative, culturally astute game design practitioners. Course objective is originality and design,
+with student-written software as the medium. This is a “creative course in computer science”,
+accessible to students with little prior programming experience. Programming exercises will
+develop constructs that govern static, dynamic, and interactive form. Topics include the
+computational manipulation of point, line and shape; texture, value and color; time, change
+and motion; reactivity, connectivity and feedback.
+
+CSCI 421 Computer and Video Game Development – 3 credits
+The course will span the software domains embedded in computer and video games. Topics
+such as game computational infrastructure, design, engines, and motion will be presented
+through discussion and assignments. Game industry guest speakers will discuss software
+challenges and opportunities. Students completing this course will understand the software
+development process required to create a successful game and possess the programming
+expertise to create a simple game.
+CSCI 422 Game Engine Programming
+Game engine programming is introduced as a critical element in compelling game
+creation. Programming activity will feature input capture, world integration, object motion,
+collision detection and audio scoring. Game performance metrics, code optimization and
+quality assurance testing procedures will be emphasized. Game projects may be implemented
+using Unity, Unreal, or Godot engines.
+CSCI 430 Computer & Network Forensics II – 3 Credits
+This class will discuss advanced computer forensics topics and network forensics. knowledge
+points include virtual machine forensics, mobile device forensics, cloud forensics, email and
+social media investigation, network traffic capture and analysis, network application log
+analysis.
+CSCI 432 Database Systems – 3 Credits
+This course engages students to analyze complex business scenarios and create a data model—
+a conceptual representation of an organization’s information. Participants implement their
+database design by creating a physical database using SQL. Basic SQL syntax and the rules for
+constructing valid SQL statements are reviewed. This course culminates with a project that
+challenges students to design, implement, and
+demonstrate a database solution for a business or organization.
+CSCI 433 Introduction to Database Security - 3 Credits
+An overview of both the theory of and applications for providing effective security in database
+management systems. Topics include conceptual frameworks for discretionary and mandatory
+access control, data integrity, availability and performance, secure database design, data
+aggregation, data inference, secure concurrency control, and secure transactions processing.
+Models for multilevel secure databases for both relational and object-relational databases are
+analyzed. Assignments focus on database security concepts.
+CSCI 440 Object-Oriented Programming - 3 Credits
+Introduces the fundamentals of object-oriented information system development with a focus
+on analysis and design phases. Data modeling and design principles such as data abstraction,
+information hiding, modularity, and coupling are viewed in the context of object-oriented
+paradigm. For object-oriented modeling Unified Modeling Language (UML) is introduced and
+used extensively throughout the course. Issues relating to making the transition from other
+
+software development methodologies are examined and risks involved in object-oriented
+process are discussed.
+CSCI 449 Computer Networks - 3 Credits
+This is an introductory course on computer networking. It will cover the layering model of the
+Internet. The upper four layers (application, transport, network and data link) will be discussed
+in detail with dominant networking protocols and algorithms introduced.
+CSCI 450 Data Communications and Network Programming - 3 Credits
+This is an introductory course on computer networking. It will cover the layering model of the
+Internet. The upper four layers (application, transport, network and data link) will be discussed
+in detail with dominant networking protocols and algorithms introduced.
+
+CSCI 451 Applied Wireless Networking - 3 Credits
+This course covers applied wireless networking principles from a historical, current, and future
+perspective. Topics that will be examined include wireless cellular networks 1G, 2G, 2.5G, 3G,
+4G (LTE), and future 5G networks, IEEE wireless specifications 802.11 wireless LANs (Wi-Fi),
+802.15 (WPAN, Bluetooth, UWB, ZIgBee, Mesh network), IEEE 802.16 (WiMAX), IEEE 802.20
+(Mobile broadband wireless access), IEEE 802.21 (Media Independent Handover), (IEEE 802.22)
+Wireless Regional Area Networks, addressing and routing to mobile users, mobility
+management, quality of service, wireless multiplexing techniques, and wireless security.
+CSCI 452 Network & Web Programming - 3 Credits
+This class will introduce (1) network programming, writing applications that communicate with
+each other via TCP/UDP sockets, and (2) Web programming, writing applications that are
+accessible through a Web Browser over the Hypertext Transport Protocol (HTTP). For web
+programming, both client side and server side programming will be covered. The LAMP stack
+(Linux, Apache, MySQL, and PHP) will be used for server side, Javascript and CSS will be covered
+for client side. HTML will be taught before studying programming.
+CSCI 453 Intro to Cyber Security I - 3 Credits
+Computer Security Overview. Malware and Cyberwarfare. Passwords. Biometrics. Access
+Controls. Multilevel Security. Multilateral Security. Firewalls. Intrusion Detection. Cryptography
+Before 1970. Symmetric Key Cryptography. The Data Encryption Standard (DES). The Public Key
+Paradigm. Knapsacks. The RSA Approach to Public Key Cryptology. Elliptic Curve
+Cryptography. Also discussed are the advanced encryption standard (Rijndael). hash functions.
+And the digital signature standard.
+CSCI 454 Intro to Cyber Security II - 3 Credits
+Distributed Denial of Service (DDoS). Hash Functions. SHA-3 and Keccak. Network Security.
+Network attack and defense. Steganography. Software security I. Software flaws. Malware.
+Miscellaneous software-based attacks. Software security II. Software reverse engineering.
+
+Software tamper resistance. Digital rights management. Software development. Stuxnet and
+Cyberwarfare. Advanced encryption techniques. Elliptic Curves and Elliptic Curve Cryptography.
+Electronic voting. Quantum cryptography.
+CSCI 460 Advanced Systems Administration - 3 Credits
+Advanced system administration course provides a strong practical experience to Linux and
+Solaris operating systems. The course includes topics such as Samba (Windows file and print
+sharing), Email, Web serving with Apache, remote access, networking setup, Internet proxy
+services, fire wall and security administration, deploy LDAP in a Linux, Solaris and windows
+environment and compile, configure and patch a Kernel module.
+CSCI 470 Fundamentals of Algorithms - 3 Credits
+Techniques for designing efficient algorithms, analyzing their complexity and applying these
+algorithms to a broad range of application settings. Methods for recognizing and dealing with
+hard problems are studied.
+CSCI 471 Applied Data Structures and Algorithms - 3 Credits
+This course aims to teach students to learn skills required for solving technical interview
+problems and deepen one’s ability to solve time sensitive programming tasks. Students will
+learn new data structures, algorithms, and algorithm design techniques and improve their
+comfort with applying data structures and algorithms knowledge to real-world problems. After
+this course, students will be able to identify the best data structure or algorithm for their
+problem and explain the reason for their decision.
+CSCI 472 Systems Management Analysis - 3 credits
+This course presents methodology for large-scale system design and analysis using modern
+semantic analysis techniques. Identification and definition of large-scale (community/industrialbased) problems. Discusses how to select and quantify measures of the severity of the problem.
+Presents different techniques for modeling alternative solutions to problems.
+CSCI 473 Applied Data Science - 3 credits
+This course will focus on hands-on data analyses with the main objective of solving real-world
+problems. We will teach the necessary skills to gather, manage and analyze data using the
+Python programming language. The course will cover an introduction to data wrangling,
+exploratory data analysis, statistical inference and modeling, machine learning, and highdimensional data analysis. We will teach the necessary skills to develop data products including
+reproducible reports that can be used to effectively communicate results from data analyses.
+We will train students to become data scientists capable of both applied data analysis and
+critical evaluation of the next generation of statistical methods.
+CSCI 474 Computational Biology - 3 Credits
+Introduces computational methods for understanding biological systems at the molecular level.
+Problem areas such as mapping and sequencing, sequence analysis, structure prediction,
+
+phylogenic inference, regulatory analysis. Techniques such as dynamic programming, Markov
+models, expectation-maximization, local search.
+CSCI 475 Intro to Machine Learning - 3 Credits
+This course teaches students techniques for learning from data and applying these algorithms
+to application settings. Topics covered include Bayesian methods, linear classifiers such as the
+perceptron, regression, and non-parametric methods such as k-nearest neighbors.
+CSCI 476 Introduction to Artificial Intelligence - 3 Credits
+This course will introduce students to contemporary topics in artificial intelligence. Topics that
+will be examined include basic AI concepts, representations, and techniques used in building
+practical computational systems (agents) that appear to display artificial intelligence, through
+the use of adaptive information processing algorithms. During the semester students will learn
+general knowledge representation techniques and problem-solving strategies. Topics will
+include search, intelligent agents, game playing and rule-based systems.
+CSCI 478 Engineering Economic Systems Design - 3 Credits
+Presents methodology for system design. Methodology begins with identification and definition
+of private sector problems to which solutions are justified by economics. Discusses selection of
+appropriate economic measures for comparing alternative solutions such as present worth,
+equivalent annual cost, cost/benefit ratio, life cycle cost, return on investment payback period.
+Presents different techniques for modeling alternative solutions to the problems and predicting
+cost. Other topics discussed include decision-making, system implementation, operations and
+retirement.
+CSCI 479 Cybersecurity Network CPS/IoT - 3 Credits
+This course is designed to introduce emerging topics related to cybersecurity challenges and
+practical cyber-defense/countermeasures in networked Cyber-Physical Systems (CPS) and
+Internet-of-Things (IoT). The course will cover fundamental concepts, technologies, theoretical
+understanding and practical basis for cybersecurity of networked CPS/IoT.
+CSCI 480 Digital Media & Multimedia Applications - 3 Credits
+This course introduces digital media fundamentals including audio, video formats, storage and
+delivery. Windows Media and other technology will be extensively utilized as a method for
+digital content manipulation, rights management and internet transfer. Students will be
+exposed to basic internet architecture, operations and useful world wide web (WWW)
+resources. In addition, a practical understanding of digital computational devices,
+communication ports and connection cables will be acquired.
+CSCI 481 Product Management- 3 Credits
+This course teaches students to understand what a product manager (PM) does and what their
+role is. Students learn product skills including customer discovery, pitching, requirements
+definition, UI design, and using metrics. They learn management skills such as influence
+
+without authority, negotiation, and having difficult conversations. Students practice these skills
+by creating an end-to-end product plan.
+CSCI 490 Software Development Studio - 3 Credits
+This course is an integrative experience that brings together all components of the
+undergraduate computer science curriculum in an applied, hands on real-world setting. The
+course is a bridge between the academic experience and the professional workplace. The
+objectives of the Capstone course are to give the student the experience of: 1) being involved in
+building a non-trivial, real-world, software development project; 2) working with other
+developers in a team environment; 3) building a web application and 4) integrating knowledge
+of topics such as programming, data structures, algorithms, database, and software engineering
+within a team-project framework. Students will present their final product at the end of the
+semester.
+CSCI 491 Senior Project I - 3 Credits
+Allows the senior student the opportunity to demonstrate his or her knowledge of systems
+engineering and computer science principles by application to a class project of his or her
+choosing, with the guidance and supervision of a faculty member. The student develops a
+proposal for the project, followed by an architectural design and detailed design, all of which
+must be presented in class.
+CSCI 492 Senior Project II - 3 Credits
+In part two, the senior student develops and implements the system solution to the proposed
+project. The system, most commonly comprising computer software, hardware, procedures,
+etc., is implemented and tested. The student is required to demonstrate the system solution to
+the faculty and the student body of the department.
+CSCI 493 The Lean LaunchPad: Technology Entrepreneurship & Lean Startups - 3 Credits
+This course provides real world, hands-on learning on what it’s like to start a high-tech
+company. This class is not about how to write a business plan. It’s not an exercise on how smart
+you are in a classroom, or how well you use the research library to size markets. And the result
+is not a PowerPoint slide deck for a VC presentation. And it is most definitely not an incubator
+where you come to build the―hot-idea that you have in mind. This is a practical class–
+essentially a lab, not a theory or―book class. Our goal, within the constraints of a classroom
+and a limited amount of time, is to create an entrepreneurial experience for you with all of the
+pressures and demands of the real world in an early-stage startup. You will be getting your
+hands dirty talking to customers, partners, competitors, as you encounter the chaos and
+uncertainty of how a startup works. You’ll work in teams learning how to turn a great idea into
+a great company. You’ll learn how to use a business model to brainstorm each part of a
+company and customer development to get out of the classroom to see whether anyone other
+than you would want/use your product. Finally, based on the customer and market feedback
+gathered, you would use agile development to rapidly iterate your product to build something
+customers would use and buy. Every day will be a new adventure outside the classroom as you
+
+test each part of your business model and then share the hard-earned knowledge with the rest
+of the class.
+CSCI 495 CS Practicum – Experience - 3 Credits
+Students will work in teams of 3-4 as part of a corporate project team. They will spend 2 days a
+week with the team joining in all team meetings and activities. The student team will be given a
+clear project for which each team member will write individual measurable goals that they will
+track throughout the semester. The student team will give at least one presentation on their
+work to the corporate project team.
+CSCI 496 CS Practicum – Professional Development - 3 Credits
+Individualized course to support the practicum experience and help prepare the student for
+careers in technology companies.
+CSCI 498 Special Topics: Robotic Programming - 3 Credits
+The primary focus of this course will be behavior-based robotics, which uses semi-autonomous
+artificial intelligence modules for planning. Behavior-based robots use the sensor information
+to react to changes in an environment, instead of complicated internal models. Higher-level
+concepts that will be covered include multi-robot communication, robot localization, and path
+planning.
+CSCI 500 Socially Relevant Computing - 2 credits
+This course will present the foundations of ethics in the context of computing. The broader
+social impact of computing and technology, in general, will also be reviewed. Areas of specific
+focus will include technology and human values, costs and benefits of technology, the character
+of technological change, and the social context of work in computer science and information
+technology.
+CSCI 583 Affective Computing (3 credits)
+
+This course provides a comprehensive and interdisciplinary introduction to the topic of
+Affective
+Computing: i.e., computing that relates to, arises from, or deliberately influences emotions.
+This course
+provides an overview of the theory of human emotion and how it arises and influences
+cognition, the body, and the social environment. Students are also introduced to techniques for
+recognizing and synthesizing emotional behavior and how these techniques can be applied to
+application design. The course adopts an interdisciplinary perspective and students will gain a
+strong background in the theory and practice in human-centered computing as it relates to
+decision-making, health, entertainment, and educational pedagogy.
+CSCI 600 Research Methods - 1 credit
+In this course, we understand and master the research methodology used in computer science.
+The course will cover topics ranging from the principles of experiment design, statistics, to
+various aspects of reading, writing, evaluating papers, and presenting research. There will be
+assignments during the semester allowing the students to practice different research skills and
+
+methodologies covered in the lectures. There will be a semester-long project in which students
+select, design, and execute research project and present the result at the end of the semester.
+CSCI 634 Advanced Data Science - 3 credits
+This course will focus on hands-on data analyses with the main objective of solving real-world
+problems. We will teach the necessary skills to gather, manage and analyze data using the
+Python programming language. The course will cover an introduction to data wrangling,
+exploratory data analysis, statistical inference and modeling, machine learning, and highdimensional data analysis. We will teach the necessary skills to develop data products including
+reproducible reports that can be used to effectively communicate results from data analyses.
+We will train students to become data scientists capable of both applied data analysis and
+critical evaluation of the next generation of statistical methods.
+CSCI 679 Human-Computer Interaction (3 credits)
+
+This course introduces students to the field of human-computer interaction (HCI). HCI is an
+interdisciplinary field that integrates theories and methodologies from computer science,
+cognitive psychology, design, and many other areas. Course readings will span current theory
+and practice in interface specification, design and evaluation, as well as current and classic
+research papers in HCI. Students will work on both individual and team projects to design,
+implement and evaluate computer interfaces. The course is open to students from all
+disciplines, providing them with experience working in interdisciplinary design teams.
+
+
