@@ -45,8 +45,12 @@ def student_login():
             error_message = "Invalid username or password."
 
     return render_template("student-login.html",error_message=error_message )
+
+
 #admin login page
-@app.route("/alogin")
+
+
+@app.route("/alogin",  methods =["GET", "POST"])
 def admin_login(): 
     error_message = None
     if request.method == "POST":
@@ -68,9 +72,30 @@ def admin_login():
 
 
 #sign up page
+@app.route("/signup",  methods =["GET", "POST"])
 def register():
-    #needs to be implemented in the front end
-    pass
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+        usertype = request.form.get("accountType")
+
+        # Use database connection
+        conn = get_db()
+        if usertype == "admin":
+            sign_up(conn,username,password)
+        if usertype == "student":
+            sign_up(conn, username, password, usertype, first_name=request.form.get("firstName"), last_name=request.form.get("lastName"), student_id=request.form.get("studentID"), classification=request.form.get("classification"), gpa=request.form.get("gpa"), expected_graduation_date=request.form.get("expectedGradDate"))
+
+
+        # Redirect back to homepage after successful sign-up
+        return redirect(url_for('homepage'))
+
+    return render_template("signup.html")
+
+#chatbot
+@app.route("/chatbot")
+def chatbot():
+    return render_template("AI-Engine.html")
 
 '''
 
@@ -78,9 +103,6 @@ Do not modify above code ^^^^^
 
 
 '''
-
-
-
 
 
 

@@ -65,20 +65,14 @@ def login(conn,username, password, usertype):
     return None
 
 
-def sign_up(conn, username, password, usertype):
+def sign_up(conn, username, password, usertype, first_name=None, last_name=None, student_id=None, classification=None, gpa=None, expected_graduation_date=None):
     cursor = conn.cursor()
     if usertype.lower() == 'admin':
         cursor.execute('''
             INSERT INTO users (username, password, usertype) VALUES (?, ?, ?)
         ''', (username, password, usertype))
     elif usertype.lower() == 'student':
-        first_name = input("Enter your first name: ")
-        last_name = input("Enter your last name: ")
-        student_id = input("Enter your student ID (in the format @XXXXXXXX): ")
-        classification = input("Enter your classification: ")
-        gpa = float(input("Enter your current GPA: "))
-        expected_graduation_date = input("Enter your expected graduation date (YYYY-MM-DD): ")
-        
+        # use additional fields 
         cursor.execute('''
             INSERT INTO users (username, password, usertype, first_name, last_name, student_id, classification, gpa, expected_graduation_date)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
