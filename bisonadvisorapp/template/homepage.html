@@ -3,91 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Bison Advisor</title>
     <style>
         body {
-            text-align: center;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
         }
 
-        .banner {
+        header {
             background-color: #000080;
             color: white;
-            padding: 10px 0;
+            text-align: center;
+            padding: 1em;
         }
 
-        .button-container {
-            display: flex;
-            flex-direction: column; /* Arrange buttons vertically */
-            align-items: center;
-            height: 100vh;
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            text-align: center;
         }
 
-        .button {
-            width: 200px;
-            height: 100px;
-            background-color: #0074d9;
-            color: white;
-            font-size: 18px;
-            border: none;
-            cursor: pointer;
-            margin-bottom: 10px; /* Add spacing between buttons */
-        }
-
-        .button:hover {
-            background-color: #0056b3;
-        }
-
-        #backButton {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            background-color: #555;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-
-        #backButton:hover {
-            background-color: #777;
+        button {
+            display: block;
+            margin: 10px auto; /* Center the buttons horizontally */
+            width: 150px; /* Set a fixed width for the buttons */
+            padding: 10px; /* Add padding for better appearance */
         }
     </style>
 </head>
 <body>
-    <div class="banner">
-        <h1>Resources</h1>
-    </div>
+    <header>
+        <h1>Bison Advisor</h1>
+    </header>
 
-    <div class="button-container">
-        <button class="button" onclick="redirectToCourseCatalog()">Course Catalog</button>
-        <button class="button" onclick="redirectToSelfService()">Self Service</button>
-        <button class="button" onclick="redirectToDegreeRequirements()">Degree Requirements</button>
-    </div>
-
-    <button id="backButton" onclick="goBack()">Back</button>
+    <main>
+        <button onclick="redirectToStudentLogin()">Student Login</button>
+        <button onclick="redirectToAdminLogin()">Admin Login</button>
+        <button onclick="redirectToSignUp()">Sign Up</button>
+    </main>
 
     <script>
-        function redirectToCourseCatalog() {
-            // Implement redirection logic for Course Catalog
-            window.location.href = 'Course-Catalog.html';
+        function redirectToStudentLogin() {
+            // Implement redirection logic to the student login page
+            window.location.href = '/slogin';
         }
 
-        function redirectToPolicies() {
-            // Implement redirection logic for Policies
-            // Example: window.location.href = 'policies.html';
+        function redirectToAdminLogin() {
+            // Implement redirection logic to the admin login page
+            window.location.href = '/alogin';
         }
 
-        function redirectToDegreeRequirements() {
-            // Implement redirection logic for Degree Requirements
-            // Example: window.location.href = 'degree-requirements.html';
-        }
-
-        function goBack() {
-            // Implement redirection logic to go back to the previous page
-            window.history.back();
+        function redirectToSignUp() {
+            // Implement redirection logic to the sign-up page
+            // Example: window.location.href = 'sign-up.html';
         }
     </script>
 </body>
