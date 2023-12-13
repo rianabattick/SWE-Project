@@ -54,9 +54,13 @@ def edit_course(course_name, choice, prereqs, course_dict):
       )
   else:
     print(f"Course '{existing_course}' not found in the dictionary.")
+  with open('CoursePrerequisites.txt', 'w') as file:
+    for course, prerequisites in course_dict.items():
+      file.write(f"{course}| {', '.join(prerequisites)}\n")
+    #NEW
+  return open('CoursePrerequisites.txt', mode='r')
 
-
-# Write the updated information to 'CoursePrerequisites.txt'
+  # Write the updated information to 'CoursePrerequisites.txt'
   with open('CoursePrerequisites.txt', 'w') as file:
     for course, prerequisites in course_dict.items():
       file.write(f"{course}| {', '.join(prerequisites)}\n")
