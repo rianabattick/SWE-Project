@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        body {
+            text-align: left;
+            margin: 20px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin: 10px;
+            width: 150px;
+            padding: 10px;
+        }
+
+        button:hover {
+            background-color: #000080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="usernameHeading">Admin Login</h1>
+    </header>
+
+    <form action="{{ url_for('admin_login') }}" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+      
+        <button type="button" onclick="redirectToHomepage()">Back</button>
+        {% if error_message %}
+             <p class="error">{{ error_message }}</p>
+        {% endif %}
+
+
+    </form>
+
+  <script>   
+    function redirectToHomepage() {
+        window.location.href = '/';
+        }
+    
+  </script>
+  
+</body>
+</html>

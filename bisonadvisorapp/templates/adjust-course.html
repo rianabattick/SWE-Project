@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjust Course</title>
+    <style>
+        body {
+            text-align: left;
+            margin: 20px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            padding: 10px;
+        }
+
+        select {
+            width: 200px;
+            padding: 10px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="usernameHeading">Adjust Course</h1>
+        <p>What would you like to do?</p>
+    </header>
+
+    <main>
+        <button onclick="redirectToAddCourse()">Add Course</button>
+        <button onclick="redirectToEditCourse()">Edit Course</button>
+        <button id="backButton" onclick="redirectToAdminDashboard()">Back to Dashboard</button>
+    </main>
+
+    <script>
+        // Assume you have the username available in a variable
+        var username = "AdminUser";
+
+        // Set the username as the content of the heading
+        document.getElementById("usernameHeading").textContent = username;
+
+        function redirectToAddCourse() {
+            // Implement redirection logic for Add Course
+            window.location.href = 'add-course.html';
+        }
+
+        function redirectToEditCourse() {
+            // Implement redirection logic for Edit Course
+            window.location.href = 'edit-course.html';
+        }
+
+        function redirectToAdminDashboard() {
+            // Implement redirection logic to go back to Admin Dashboard
+            window.location.href = 'admin-dashboard.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bison Advisor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            margin: 10px auto; /* Center the buttons horizontally */
+            width: 150px; /* Set a fixed width for the buttons */
+            padding: 10px; /* Add padding for better appearance */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bison Advisor</h1>
+    </header>
+
+    <main>
+        <button onclick="redirectToStudentLogin()">Student Login</button>
+        <button onclick="redirectToAdminLogin()">Admin Login</button>
+        <button onclick="redirectToSignUp()">Sign Up</button>
+    </main>
+
+    <script>
+        function redirectToStudentLogin() {
+            // Implement redirection logic to the student login page
+            window.location.href = '/slogin';
+        }
+
+        function redirectToAdminLogin() {
+            // Implement redirection logic to the admin login page
+            window.location.href = '/alogin';
+        }
+
+        function redirectToSignUp() {
+            // Implement redirection logic to the sign-up page
+            window.location.href = '/signup';
+        }
+    </script>
+</body>
+</html>

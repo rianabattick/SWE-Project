@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        #additionalFields {
+            display: none;
+        }
+
+        button {
+            width: 150px;
+            padding: 10px;
+            margin: 10px auto;
+            background-color: #000080;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0000a0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Account Creation</h1>
+    </header>
+
+    <main>
+        <form id="accountForm" action="{{url_for('register')}}" method="post" >
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="accountType">Account Type:</label>
+            <select id="accountType" name="accountType" onchange="showAdditionalFields()">
+                <option value="admin">Admin</option>
+                <option value="student">Student</option>
+            </select>
+
+            <div id="additionalFields">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+
+                <label for="studentID">Student ID:</label>
+                <input type="text" id="studentID" name="studentID">
+
+                <label for="classification">Classification:</label>
+                <input type="text" id="classification" name="classification">
+
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa">
+
+                <label for="expectedGradDate">Expected Graduation Date (YYYY-MM-DD):</label>
+                <input type="text" id="expectedGradDate" name="expectedGradDate">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <script>
+        function showAdditionalFields() {
+            var accountType = document.getElementById("accountType").value;
+            var additionalFields = document.getElementById("additionalFields");
+
+            if (accountType === "student") {
+                additionalFields.style.display = "block";
+            } else {
+                additionalFields.style.display = "none";
+            }
+        }
+
+        
+    </script>
+</body>
+</html>

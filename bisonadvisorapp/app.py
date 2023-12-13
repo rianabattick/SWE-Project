@@ -85,7 +85,7 @@ def register():
         # Use database connection
         conn = get_db()
         if usertype == "admin":
-            sign_up(conn,username,password)
+            sign_up(conn,username,password,usertype)
         if usertype == "student":
             sign_up(conn, username, password, usertype, first_name=request.form.get("firstName"), last_name=request.form.get("lastName"), student_id=request.form.get("studentID"), classification=request.form.get("classification"), gpa=request.form.get("gpa"), expected_graduation_date=request.form.get("expectedGradDate"))
 
@@ -139,10 +139,17 @@ def student_dashboard():
 
 
 
-#other pages need to be inserted here:
+@app.route("/course_catalog")
+def course_catalog():
+    return render_template("Course-Catalog.html")
 
+@app.route("/calendar")
+def academic_calendar():
+    return render_template("calendar.html")
 
-
+@app.route("/adjust_course")
+def adjust_course():
+    return render_template("adjust-course.html")
 
 
 

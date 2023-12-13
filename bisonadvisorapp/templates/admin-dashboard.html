@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            text-align: left;
+            margin: 20px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+      
+        button {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            padding: 10px;
+        }
+
+        #backButton {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        #logoutButton {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="usernameHeading">Admin</h1>
+        <p>How would you like to proceed?</p>
+    </header>
+
+    <main>
+        <button id="logoutButton" onclick="logout()">Log Out</button>
+        <button onclick="redirectToCourseCatalog()">Course Catalog</button>
+        <button onclick="redirectToAcademicCalendars()">Academic Calendars</button>
+        <button onclick="redirectToAdjustCourse()">Adjust Course</button>
+        <button onclick="redirectToSelfService()">Self Service</button>
+    </main>
+
+    <script>
+        // Assume you have the username available in a variable
+        var username = "AdminUser";
+
+        // Set the username as the content of the heading
+        document.getElementById("usernameHeading").textContent = username;
+
+        function logout() {
+            // Implement logout logic and redirect to homepage.html
+            window.location.href = '/';
+        }
+
+        function redirectToCourseCatalog() {
+            // Implement redirection logic for Course Catalog
+            window.location.href = '/course_catalog';
+        }
+
+        function redirectToAcademicCalendars() {
+            // Implement redirection logic for Academic Calendars
+            window.location.href = '/calendar';
+        }
+      
+        function redirectToSelfService() {
+            window.location.href = 'self-service.html';
+        }
+        function redirectToAdjustCourse() {
+            window.location.href = '/adjust_course';
+        }
+
+    </script>
+</body>
+</html>

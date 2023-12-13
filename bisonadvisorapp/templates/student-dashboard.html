@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #profile-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #profile-picture {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        #student-info {
+            margin-top: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        button {
+            display: block;
+            margin: 10px auto; /* Center the buttons horizontally */
+            width: 150px; /* Set a fixed width for the buttons */
+            padding: 10px;
+        }
+
+        button:hover {
+            background-color: #000080;
+        }
+
+        #backButton {
+            background-color: #555;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        #backButton:hover {
+            background-color: #777;
+        }
+
+        /* Additional style for clickable links */
+        .clickable-section {
+            color: #000080;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Student Dashboard</h1>
+    </header>
+
+    <main>
+
+        <section id="profile-section">
+            <img id="profile-picture" src="https://placekitten.com/100/100" alt="Profile Picture">
+            <div id="student-info">
+                <h3>Student Name</h3>
+                <p>@12345678</p>
+            </div>
+            <button id="profilebutton" style="width: 150px; padding: 2.5px;" onclick="redirectToStudentProfile()">Go to Student Profile</button>
+            <button id="chatbutton" style="width: 150px; padding: 2.5px;" onclick="redirectToChatBox()">AI Advisor</button>
+
+        </section>
+
+        <section id="advising">
+            <h2>Advising Recommendations</h2>
+            <!-- Advising content goes here -->
+        </section>
+
+        <section id="academic-history">
+            <h2>Academic History</h2>
+            <!-- Academic history content goes here -->
+            <table>
+                <tr>
+                    <th>Class Name</th>
+                    <th>Date Taken</th>
+                    <th>Semester</th>
+                    <th>Grade</th>
+                </tr>
+                <!-- Academic history data goes here -->
+            </table>
+        </section>
+
+        <!-- Clickable sections -->
+        <section id="goals-preferences" class="clickable-section" onclick="redirectToGoalsPreferences()">
+            <h2>Goals and Preferences</h2>
+            <!-- Goals and preferences content goes here -->
+        </section>
+
+        <section id="course-catalog" class="clickable-section" onclick="redirectToCourseCatalog()">
+            <h2>Course Catalog</h2>
+            <!-- Course Catalog content goes here -->
+        </section>
+
+        <section id="notifications" class="clickable-section" onclick="redirectToNotifications()">
+            <h2>Notifications</h2>
+            <!-- Notifications content goes here -->
+        </section>
+
+        <section id="important-forms" class="clickable-section" onclick="redirectToImportantForms()">
+            <h2>Important Forms</h2>
+            <!-- Important forms content goes here -->
+        </section>
+
+        <!-- New section -->
+        <section id="self-service" class="clickable-section" onclick="redirectToStudentSelfService()">
+            <h2>Self Service</h2>
+            <!-- Self Service content goes here -->
+        </section>
+
+        <section id="student-data-entry">
+            <h2>Enter Student Data</h2>
+            <form>
+                <label for="className">Class Name:</label>
+                <input type="text" id="className" name="className" required>
+
+                <label for="dateTaken">Date Taken:</label>
+                <input type="date" id="dateTaken" name="dateTaken" required>
+
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester" name="semester" required>
+
+                <label for="grade">Grade:</label>
+                <input type="text" id="grade" name="grade" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <button id="logoutbutton" onclick="redirectToStudentLogin()">Log out</button>
+
+    </main>
+
+    <script>
+        function redirectToStudentLogin() {
+            window.location.href = '/';
+        }
+        
+        function redirectToStudentProfile() {
+            window.location.href = 'student-profile.html';
+        }
+
+        // Existing script remains unchanged
+
+        function redirectToGoalsPreferences() {
+
+        }
+
+        function redirectToCourseCatalog() {
+            // Implement redirection logic for Course Catalog
+            window.location.href = 'Course-Catalog.html';
+        }
+      
+        function redirectToChatBox() {
+          //Implement redirection logic for AI Chatbox 
+          window.location.href = '/chatbot';
+        }
+
+        function redirectToNotifications() {
+            
+        }
+
+        function redirectToImportantForms() {
+            
+        }
+
+        function redirectToStudentSelfService() {
+            window.location.href = 'self-service.html';
+        }
+    </script>
+
+</body>
+</html>
