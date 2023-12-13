@@ -1,0 +1,39 @@
+CSCI 135 Computer Science I| CSCI 100 
+CSCI 136 Computer Science II| CSCI 135
+CSCI 354 Computer Science III| CSCI 136
+CSCI 201 Computer Organization I| CSCI 135 
+CSCI 202 Computer Organization II| CSCI 201
+CSCI 363 Large Scale Programming| CSCI 136 
+CSCI 375 Software Engineering| CSCI 354
+CSCI 376 Operations Research| CSCI 375
+CSCI 350 Structure of Programming Languages| CSCI 201, CSCI 341
+CSCI 472 Systems Management Analysis| CSCI 375
+CSCI 410 Modeling and Simulation| 
+CSCI 341 Theory of Computation| CSCI 136, Math 181
+CSCI 432 Database Systems| CSCI 136
+CSCI 401 Operating Systems| CSCI 202,CSCI 363
+CSCI 470 Fundamentals of Algorithms| CSCI 354
+CSCI 491 Senior Project| 
+CSCI 492 Senior Project II| CSCI 491
+CSCI 165 Scientific Computing for Engineers| 
+CSCI 203 Object-Oriented Programming using Java| CSCI 136
+CSCI 364 Web Services| 
+CSCI 379 Introduction to Human Computer Interaction| CSCI 354
+CSCI 390 Ethical and Social Impact of Computing| 
+CSCI 391 Patents and Technology Entrepreneurship| Junior Standing
+CSCI 402 Mobile Application Development| CSCI 363
+CSCI 421 Computer and Video Game Development| CSCI 354,CSCI 375 
+CSCI 422 Game Engine Programming| CSCI 421
+CSCI 440 Object-Oriented Programming| CSCI 354 
+CSCI 450 Data Communications and Network Programming| CSCI 354,CSCI 201,CSCI 470,MATH 181
+CSCI 451 Applied Wireless Networking| CSCI 450
+CSCI 453 Intro to Cybersecurity| Junior Standing
+CSCI 454 Intro to Cybersecurity II| CSCI 453 
+CSCI 460 Advanced Systems Administration| CSCI 211 
+CSCI 474 Computational Biology| CSCI 470,MATH 189
+CSCI 475 Introduction to Machine Learning| CSCI 354,MATH 189
+CSCI 476 Intro to Art| CSCI 350 
+CSCI 478 Engineering Economic System Design| CSCI 376 
+CSCI 493 Lean Launch Pad: Startups| Junior Standing
+CSCI 480 Digital Media and Multimedia Applications| Junior Standing
+CSCI 498 Special Topics: Robotics.Programming| Junior Standing
